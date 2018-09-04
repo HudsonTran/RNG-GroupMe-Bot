@@ -11,6 +11,7 @@ function doPost(e){
   var text = post.text;
   var name = post.name;
   
+  // 1000 can be replaced with any number to change the range
   if(text.toLowerCase().substring(0,7) == "!random"){
       sendText(name + ", here's a random number: " + genNum(1000).toString());
   }
