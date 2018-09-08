@@ -17,6 +17,7 @@ function doPost(e){
   }
 }
 
+// This function generates the random number
 function genNum(val){
   return Math.floor(Math.random() * val + 1);
 }
