@@ -16,7 +16,7 @@ function doPost(e){
       sendText(name + ", here's a random number: " + genNum(1000).toString());
   }
 }
-
+// testing comment
 // This function generates the random number
 function genNum(val){
   return Math.floor(Math.random() * val + 1);
